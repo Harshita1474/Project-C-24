@@ -8,7 +8,7 @@ class Paper{
       this.body.width=20;
       this.body.height=20;
 
-     World.add(World,this.body);
+     World.add(world,this.body);
     }
     display(){
         var pos =this.body.position;
