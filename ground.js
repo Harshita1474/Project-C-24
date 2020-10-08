@@ -6,7 +6,7 @@ class Ground{
       
       this.body.width=800;
       this.body.height=20;
-      World.add(World,this.body);
+      World.add(world,this.body);
     }
     display(){
         var pos =this.body.position;
