@@ -6,7 +6,7 @@ class Dustbin{
       
       this.body.width=20;
       this.body.height=100;
-      World.add(World,this.body);
+      World.add(world,this.body);
     }
     display(){
         var pos =this.body.position;
