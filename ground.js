@@ -21,4 +21,4 @@ class Ground{
         rect(0, 0, 800,20);
         pop();
     }
-  }
+}
