@@ -5,7 +5,7 @@ class Ground{
          isStatic:true
         }
         
-      this.body=Bodies.rectangle(x,y,800,20);
+      this.body=Bodies.rectangle(x,y,800,20,options);
       
       this.body.width=800;
       this.body.height=20;
