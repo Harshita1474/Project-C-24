@@ -23,7 +23,7 @@ function setup() {
 
 	
 
-	//paper=new Paper(100,650,width,height);
+	paperObject=new Paper(100,650,width,height);
 
 	dustbinSide1=new Dustbin(500,610,20,100);
 	dustbinSide2=new Dustbin(700,610,20,100);
@@ -42,14 +42,14 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
- // paper.display();
+  paperObject.display();
   dustbinSide1.display();
   dustbinSide2.display();
   dustbinSide3.display();
   ground.display();}
 
-//function keyPressed(){
-	///if(keyCode === UP_ARROW){
-		//Matter.Body.applyforce(paperObject.body,paperObject.body.position,{x:85,y:-85})
-	//}
-//}
+function keyPressed(){
+	if(keyCode === UP_ARROW){
+		Matter.Body.applyforce(paperObject.body,paperObject.body.position,{x:85,y:-85})
+	}
+}
