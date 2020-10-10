@@ -48,8 +48,8 @@ function draw() {
   dustbinSide3.display();
   ground.display();}
 
-function keyPressed(){
-	if(keyCode === UP_ARROW){
-		Matter.Body.applyforce(paperObject.body,paperObject.body.position,{x:85,y:-85})
-	}
-}
+//function keyPressed(){
+	///if(keyCode === UP_ARROW){
+		//Matter.Body.applyforce(paperObject.body,paperObject.body.position,{x:85,y:-85})
+	//}
+//}
