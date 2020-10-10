@@ -4,7 +4,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
-var paper,ground;
+var paperObject,ground;
 var dustbinSide1,dustbinSide2,dustbinSide3;
 
 function preload()
