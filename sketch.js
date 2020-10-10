@@ -23,7 +23,7 @@ function setup() {
 
 	
 
-	paper=new Paper(100,650,width,height);
+	//paper=new Paper(100,650,width,height);
 
 	dustbinSide1=new Dustbin(500,610,20,100);
 	dustbinSide2=new Dustbin(700,610,20,100);
@@ -42,7 +42,7 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-  paper.display();
+ // paper.display();
   dustbinSide1.display();
   dustbinSide2.display();
   dustbinSide3.display();
